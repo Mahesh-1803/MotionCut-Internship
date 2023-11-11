@@ -1,0 +1,227 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for your website */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../templates/drone.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+    margin-top: 25px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+nav ul li a:hover{
+    background-color: #fff;
+    color: #000;
+
+}
+nav ul li.active a{
+    background-color: #fff;
+    color: #000;
+
+}
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.title h1{
+    color: #fff;
+    font-size: 39px;
+
+}
+
+.title h2{
+    color: #fff;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+/* Style for sections, portfolio, services, about, and contact */
+section {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.home{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../templates/drone1.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0;
+}
+.home h1{
+    color: #fff;
+    font-size: 30px;
+    float: middle;
+
+}
+.home p{
+    color: #fff;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* ... previous CSS styles ... */
+
+.portfolio-container {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../templates/drone2.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.portfolio-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.portfolio-item p {
+    margin-top: 10px;
+    color: #fff;
+}
+
+/* ... rest of the CSS styles ... */
+
+
+/* ... previous CSS styles ... */
+
+.services-container {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../templates/drone\ 3.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 0px;
+}
+
+.service {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.service img {
+    max-width: 100%;
+    height: auto;
+}
+
+.service h3 {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #ddd;
+}
+
+.service p{
+    margin-top: 10px;
+    color: #fff;
+}
+
+.about-container{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../templates/drone4.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0;
+}
+
+.about h2 {
+    font-size: 25px;
+    margin-top: 10px;
+    color: #ddd;
+}
+
+.about p{
+    margin-top: 10px;
+    color: #fff;
+    font-size: 20px;
+}
+.about h3 {
+    font-size: 22px;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.contact-container{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../templates/drone5.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0;
+}
+
+.contact h2 {
+    font-size: 25px;
+    margin-top: 10px;
+    color: #ddd;
+}
+
+.contact p{
+    margin-top: 10px;
+    color: #fff;
+    font-size: 20px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* ... rest of the CSS styles ... */
